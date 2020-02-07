@@ -23,7 +23,7 @@ body{
 }
 
 .container{
-    max-width: 1140px;
+    width: 1140px;
     margin: auto;
     max-width: 95%;
 }
@@ -310,6 +310,7 @@ margin-right: 30px;
     }
     .menu-button-active{
         height: 0;
+        z-index: 2;
     }
     .menu-button-active:before{
         transform: rotate(45deg);
@@ -328,6 +329,7 @@ margin-right: 30px;
         background-color: #9D2929;
         width: 250px;
         padding-bottom: 40px;
+        z-index: 1;
     }
     .header-active{
         display: flex;
