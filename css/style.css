@@ -273,6 +273,9 @@ margin-right: 30px;
     margin-left: 0;
 }
 @media(max-width: 540px){
+    body{
+        background-size: 95%;
+    }
     .menu-button{
         width: 30px;
         height: 2px;
