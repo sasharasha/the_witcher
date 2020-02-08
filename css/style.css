@@ -26,6 +26,7 @@ body{
     width: 1140px;
     margin: auto;
     max-width: 95%;
+    overflow: hidden;
 }
 
 .header{
@@ -274,7 +275,7 @@ margin-right: 30px;
 }
 @media(max-width: 540px){
     body{
-        background-size: 95%;
+        background-size: 900px 786.5px;
     }
     .menu-button{
         width: 30px;
@@ -313,7 +314,7 @@ margin-right: 30px;
     }
     .menu-button-active{
         height: 0;
-        z-index: 2;
+        z-index: 200;
     }
     .menu-button-active:before{
         transform: rotate(45deg);
@@ -332,7 +333,7 @@ margin-right: 30px;
         background-color: #9D2929;
         width: 250px;
         padding-bottom: 40px;
-        z-index: 1;
+        z-index: 100;
     }
     .header-active{
         display: flex;
@@ -365,6 +366,6 @@ margin-right: 30px;
         font-size: 56px;
     }
     .series{
-        width: 80%;
+        width: 70%;
     }
-}
+}  
